@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Frontend Mentor | Single-page developer portfolio</title>
+</head>
+<body>
+
+  <div class="main">
+    <header>
+      <a class="navbar-brand ml-lg-3" href="/">
+        <img src="assets/images/mylogoo.png" width="70" height=60 alt="Logo do Site">
+         </a>
+      <div class="redes">
+              <a class="btn btn-light btn-social mr-2" href="https://wa.me/qr/GHNF76AMKRYDJ1"><i class="fab fa-whatsapp"></i></a>
+              <a class="btn btn-light btn-social mr-2" href="https://www.behance.net/letciaamarante1"><i class="fab fa-behance"></i></a>
+              <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/let%C3%ADcia-amarante-861028215"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-light btn-social" href="https://github.com/Leeh27"><i class="fab fa-github"></i></a>
+          </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero_information">
+        <h1>Olá! Eu sou</h1>
+        <h1>Leticia <br> Amarante.</h1>
+        <p>Como designer gráfico e desenvolvedora front-end, meu foco é transformar ideias criativas em interfaces visuais impactantes.</p>
+        <div class="link">CONTACT ME</div>
+      </div>
+
+      <div class="profile_img">
+         <img src="assets/images/1perfil.jpeg" width="400" height="650" alt="Profile image">
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects_header">
+        <h1>Projetos</h1><picture>
+          <img src="assets/images/css-html-js.png" width="200" height="100" alt="Profile image">
+         </picture><br>
+        
+      </div>
+    <p>Projetos realizados por Leticia Amarante pela Plataforma <a href="https://www.frontendmentor.io/home">Frontend Mentor</a><br> Clique em "Ver Projeto" para visualizar meu trabalho! </p>
+  </div>
+      
+      
+      <div class="projects_list">
+        <!-- Project -->
+        <div class="project">
+          <div class="project_img"><img src="assets/images/image6.png" alt=""></div>
+          <div class="project_title">Portfólio de página única</div>
+          <div class="project_actions">
+            <a href="https://site-em-andamento.netlify.app/"><button>Ver Projeto</button></div></a>
+          </div>
+
+        <div class="project">
+          <div class="project_img"><img src="assets/images/image2.png" alt=""></div>
+          <div class="project_title">Página de Notícias</div>
+          <div class="project_actions">
+            <a href="https://www.frontendmentor.io/solutions/news-homepage-UJyX-V5x-w"><button>Ver Projeto</button></div></a>
+          </div>
+
+          <div class="project">
+            <div class="project_img"><img src="assets/images/image0.png" alt=""></div>
+            <div class="project_title">Portfolio</div>
+            <div class="project_actions">
+              <a href="https://leehamarant.netlify.app/"><button>Ver Projeto</button></div></a>
+            </div>
+
+            <div class="project">
+              <div class="project_img"><img src="assets/images/image3.png" alt=""></div>
+              <div class="project_title">Perfil de links sociais</div>
+              <div class="project_actions">
+                <a href="https://www.frontendmentor.io/solutions/perfil-de-links-sociais-m0ypqaVUL1"><button>Ver Projeto</button></div></a>
+              </div>
+
+              <div class="project">
+                <div class="project_img"><img src="assets/images/image4.png" alt=""></div>
+                <div class="project_title">Formulário de Contato</div>
+                <div class="project_actions">
+                  <a href="https://www.frontendmentor.io/solutions/html-e-css-LKZAwj5lb4"><button>Ver Projeto</button></div></a>
+                </div>
+
+                <div class="project">
+                  <div class="project_img"><img src="assets/images/image7.png" alt=""></div>
+                  <div class="project_title">Componente de QR Code</div>
+                  <div class="project_actions">
+                    <a href="https://www.frontendmentor.io/solutions/html-and-css-7HTwXVyxWC"><button>Ver Projeto</button></div></a>
+                  </div>
+
+    </section>
+
+  </div>
+
+  <div class="bottom_box">
+
+    <section class="contact">
+      <div class="contact_info">
+        <h1>Contato</h1>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+       <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required >
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required >
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit" class="link btn_send">Enviar</button>
+
+        <input type="hidden" name="accessKey"  value="41292d28-0330-476f-88fe-ae5396e9da0f">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/single-page-developer-portfolio/starter-code/assets/obrigado.html">
+      </div>
+    </form>
+    </section>
+
+    <footer>
+      <div class="logo"> Leticia Amarante</div>
+      <div class="redes">
+        <a class="btn btn-light btn-social mr-2" href="https://wa.me/qr/GHNF76AMKRYDJ1"><i class="fab fa-whatsapp"></i></a>
+        <a class="btn btn-light btn-social mr-2" href="https://www.behance.net/letciaamarante1"><i class="fab fa-behance"></i></a>
+        <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/let%C3%ADcia-amarante-861028215"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-light btn-social" href="https://github.com/Leeh27"><i class="fab fa-github"></i></a>
+    
+           </div>
+    </footer>
+    <div  class="copyright">
+      <h4>2024 | Leticia Amarante <br> Todos os direitos reservados</h4>
+   
+
+  </div>
+
+</body>
+</html>
