@@ -1,1 +1,1 @@
-![ijfhkugvkugv](https://github.com/user-attachments/assets/8e0d9d1b-b546-45d7-a50f-b1ab81482c69)
+![WhatsApp Image 2024-08-21 at 20 00 35](https://github.com/user-attachments/assets/6964c83f-ef21-418b-958c-01f25e052eb6)
